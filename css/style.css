@@ -1,0 +1,44 @@
+html {
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+
+header, main, footer {
+    padding-left: 300px;
+}
+
+#home {
+    height: 100vh;
+}
+
+#aboutme, #myblogs {
+    padding: 30px;
+}
+
+.breadcrumb {
+    padding-left: 30px;
+}
+
+.menu-item {
+    border-left: 8px solid transparent;
+}
+
+.menu-item.active {
+    border-color: brown;
+}
+
+.fixed-action-btn.info {
+    left: 23px;
+    z-index: 999;
+    right: auto;
+}
+
+.card .card-content {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.card-panel {
+    padding: 2px;
+    font-weight: bold;
+}
